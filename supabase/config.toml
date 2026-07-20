@@ -1,0 +1,29 @@
+project_id = "eqaskkfrbxmpkopqctvv"
+
+[functions.send-notifications]
+verify_jwt = false
+
+[functions.error-monitor]
+verify_jwt = false
+
+[functions.booking-automation]
+verify_jwt = false
+
+[functions.analytics-collector]
+verify_jwt = false
+
+[functions.rate-limiter]
+verify_jwt = false
+
+[functions.pricing-engine]
+verify_jwt = false
+
+[functions.availability-intersection]
+verify_jwt = false
+
+[functions.analytics-api]
+verify_jwt = true
+
+[functions.cart-cleanup]
+verify_jwt = false
+
